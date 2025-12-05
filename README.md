@@ -83,57 +83,7 @@ This project provides a complete modelling pipeline for:
 
 ---
 
-## 📁 Repository Structure
-
-```
-project/
-│
-├── data/
-│   ├── wc2018/
-│   ├── euro2020/
-│   ├── wc2022/
-│   └── README_data.md
-│
-├── notebooks/
-│   ├── 01_feature_engineering.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_evaluation.ipynb
-│
-├── src/
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── train_models.py
-│   └── evaluation.py
-│
-├── models/
-│   ├── logistic_regression/
-│   └── xgboost/
-│
-└── README.md
-```
-
-
-
-## ▶️ Usage
-
-### Train models
-```bash
-python src/train_models.py
-```
-
-### Run evaluations
-```bash
-python src/evaluation.py
-```
-
-### Work interactively
-Open the corresponding Jupyter notebooks in `/notebooks`.
-
----
-
 ## 📜 License
-
-This project is released under the **MIT License** for all original code, modelling logic, and documentation.
 
 ### **Data License**
 
@@ -146,12 +96,6 @@ https://github.com/statsbomb/open-data
 Users of this repository **must comply with StatsBomb’s data license** when redistributing, modifying, or using the data.
 
 The models, analyses, and derived outputs included here are based on this data but do **not** transfer ownership of the underlying data.
-
----
-
-## 🤝 Acknowledgements
-
-Special thanks to **StatsBomb** for providing high‑quality open football event data that makes research like this possible.
 
 ---
 
